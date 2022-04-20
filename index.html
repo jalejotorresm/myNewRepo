@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Transit Training Tool</title>
     <link rel="icon" href="https://www.capstonelogistics.com/favicon.ico?v=1">
 </head>
@@ -22,11 +22,13 @@
         <h1>Welcome to our -beta- Transit Training Tool</h1>
         <h2>Specially designed for our Trainees</h2>
         <p>This tool will help you understand on a first basis how normally a load would behave in terms of desired transit times.</p>
-        <label for="pickup">Please submit your Pickup Location ZIP code:</label><br>
-        <input type="text" id="pickup" name="pickup" min="00001" max="99950"><br>
-        <label for="delivery">Please submit your Delivery Location ZIP code:</label><br>
-        <input type="text" id="delivery" name="delivery" min="00001" max="99950"><br><br>
-        <input type="submit" value="Submit">
+        <div class="information">
+          <label for="pickup">Please submit your Pickup Location ZIP code:</label><br>
+          <input class="data" type="text" id="pickup" name="pickup" min="00001" max="99950"><br>
+          <label for="delivery">Please submit your Delivery Location ZIP code:</label><br>
+          <input class="data" type="text" id="delivery" name="delivery" min="00001" max="99950"><br><br>
+          <input class="data" type="submit" value="Submit">
+        </div>
     </div>
 </body>
 </html>
